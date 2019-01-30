@@ -1,1 +1,12 @@
-h1 { color:green; }
+ h1 { color:green; } 
+body {background-color:orange;}
+body{ text-align: center;}
+div#pageWrapper {
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
