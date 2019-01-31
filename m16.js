@@ -15,9 +15,9 @@ function showDiffDate(tYear, tMonth, tDay) {
   // 表示
   var Msg;
   if (showDays >= 0) {
-    Msg = "指定日まであと " + showDays + "日です。";
+    Msg = "誕生日まであと " + showDays + "日です。";
   } else {
-    Msg = "指定日は " + (showDays * -1) + "日前に過ぎました。";
+    Msg = "誕生日は " + (showDays * -1) + "日前に過ぎました。";
   }
   return Msg;
 }
